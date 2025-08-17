@@ -1,32 +1,53 @@
-# Cafe-Management-System
-Welcome to the Cafe Management System! This robust application streamlines the operations of a modern cafe, offering comprehensive features for both administrators and users. From managing daily orders and inventory to personalizing user experiences with discounts and dining options, our system is designed to enhance efficiency and customer satisfaction.
+# ☕ Cafe Management System
 
-✨ Features
-Our system is packed with over 30 use cases, ensuring a seamless experience for all users. Here's a glimpse of what it can do:
+Welcome to the **Cafe Management System** — a robust, modular application that streamlines day-to-day cafe operations for **admins** and **customers** alike. From secure authentication and rich ordering flows to inventory control and insightful reporting, this system is designed for efficiency and great customer experiences.
 
-🔒 User Authentication & Management
-Admin Login: Secure access for administrators to manage the system.
+<p align="left">
+  <a href="#"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-green.svg"/></a>
+  <a href="#"><img alt="Build" src="https://img.shields.io/badge/build-passing-brightgreen"/></a>
+  <a href="#"><img alt="Issues" src="https://img.shields.io/badge/issues-welcome-blue"/></a>
+  <a href="#"><img alt="PRs" src="https://img.shields.io/badge/PRs-welcome-purple"/></a>
+</p>
 
-New Admin Registration: Option to add new administrators.
+---
 
-User Login: Customers can securely log in to their accounts.
+## 🌟 Features (30+ Use Cases)
 
-New User Account Creation: Easy registration process for new customers.
+### 🔒 User Authentication & Management
+- Admin Login (secure)
+- New Admin Registration
+- User Login (customers)
+- New User Account Creation
+- Password Reset / OTP / Email Verification
+- Role-Based Access Control (Admin / Staff / User)
+- Session Management & Logout Everywhere
 
-🍽️ Order Management & Customization
-Browse Menu & Select Options: Users can explore available items and customize their orders.
+### 🍽️ Order Management & Customization
+- Browse Menu (categories, filters, search)
+- Item Details (variants, add-ons, notes)
+- “My Cart” (add/update/remove, quantity controls)
+- Apply Offer Coupons (promo campaigns)
+- Apply Discount Coupons (code-based)
+- Dine-in Option (table selection)
+- Parcel/Takeaway Option
+- Scheduled Orders (pickup or dine-in time)
+- Order Notes (special instructions)
+- Past Order History & Reorder
+- Order Status Tracking (Pending → Preparing → Ready → Delivered)
+- Payment Options (COD / Online*)
+- Bill & Tax Calculation (subtotals, GST/VAT, tips)
 
-"My Cart" Functionality: Add and manage items in the shopping cart.
 
-Apply Offer Coupons: Redeem special offers and promotions.
+### 📊 Administrative Tools
+- Admin Dashboard (KPIs: daily sales, AOV, top items)
+- Menu Management (CRUD for categories/items/variants/add-ons)
+- Inventory Management (stock in/out, low-stock alerts)
+- Coupon & Offer Management (rules, validity)
+- Table Management (dine-in seating, QR codes*)
+- Staff Management (roles, shifts)
+- Order Management (override, refunds, cancellations)
+- Sales Reports (CSV/Excel export, date filters)
+- Audit Logs (who changed what & when)
+- Settings (tax rates, currency, store hours, blackout dates)
 
-Apply Discount Coupons: Utilize discount codes for reduced prices.
 
-Past Order History: Users can view their previous orders for easy reordering or reference.
-
-Dine-in Option: Customers can choose to dine at the cafe.
-
-Parcel/Takeaway Option: Customers can opt for take-away orders.
-
-📊 Administrative Tools
-Comprehensive Backend Management: This would include managing menu items, inventory, staff, sales reports, etc.
